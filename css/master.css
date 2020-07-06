@@ -115,7 +115,7 @@ header .menu-toggle {
   display: none;
 }
 
-.rojects {
+.projects {
   min-height: 100%;
 }
 
@@ -138,7 +138,7 @@ header .menu-toggle {
   top: 50%;
   right: 30px;
   font-size: 2em;
-  color: #006669;
+  color: #DD1414;
   cursor: pointer;
 }
 
@@ -147,7 +147,7 @@ header .menu-toggle {
   top: 50%;
   left: 30px;
   font-size: 2em;
-  color: #006669;
+  color: #DD1414;
   cursor: pointer;
 }
 
