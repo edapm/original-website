@@ -181,3 +181,26 @@ header .menu-toggle {
   padding: 0px 5px;
   text-align: center;
 }
+
+/* FOOTER */
+
+.footer {
+  background: #DD1414;
+  color: #686868;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+.footer a {
+  transition: all 0.5s;
+}
+
+.footer a:hover {
+  color: white;
+  transition: all 0.5s;
+}
