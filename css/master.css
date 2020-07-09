@@ -12,15 +12,18 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu';
-}
-
-h1 {
   text-align: center;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  transition: .5s;
+}
+
+a:hover {
+  color: #789111;
+  transition: .5s;
 }
 
 .clearfix::after {
@@ -73,6 +76,10 @@ header {
 }
 
 header * {
+  color: white;
+}
+
+header a:hover {
   color: white;
 }
 
@@ -133,6 +140,7 @@ header ul li ul li a.logout {
 
 header ul li ul li a:hover {
   background: #d5d6d6;
+  color: white;
 }
 
 header ul li a {
@@ -265,30 +273,41 @@ header .menu-toggle {
   list-style: none;
 }
 
-.content .sidebar .contact-form .contact-input {
+.contact-form .contact-input {
   background: inherit;
   color: #bebdbd;
   margin-bottom: 10px;
   line-height: 1.5rem;
   padding: .9rem .9rem;
-  border: 1px solid #444444;
+  border: none;
   transition: .5s;
 }
 
-.content .sidebar .contact-form .contact-input:focus {
+.contact-form .contact-input:focus {
   transition: .5s;
   background: #5c534e;
 }
 
-.content .sidebar .contact-form .contact-btn {
+.contact-form .contact-btn {
   float: right;
   transition: .5s;
 }
 
-.content .sidebar .contact-form .contact-btn:hover {
+.contact-form .contact-btn:hover {
   color: black !important;
   background: #87acad;
   transition: .5s;
+}
+
+.about-text {
+  margin: 10px auto;
+  text-align: center;
+  word-wrap: normal;
+}
+
+.about-contact {
+  border: 1px solid #444444;
+  margin: 20px auto;
 }
 
 /* FOOTER */
