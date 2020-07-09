@@ -71,7 +71,7 @@ a:hover {
 /* NAVBAR */
 
 header {
-  background: #0034ab;
+  background: #597a75;
   height: 66px;
 }
 
@@ -91,7 +91,7 @@ header .logo {
 
 header .logo-text {
   margin: 8px;
-  color: #FF0000;
+  color: #a33535;
   font-size: 2rem;
 }
 
@@ -135,7 +135,7 @@ header ul li ul li a {
 }
 
 header ul li ul li a.logout {
-  color: red;
+  color: #a33535;
 }
 
 header ul li ul li a:hover {
@@ -151,7 +151,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  background: #FF0000;
+  background: #a33535;
   transition: 0.5s;
 }
 
