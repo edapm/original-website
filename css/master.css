@@ -68,6 +68,14 @@ a:hover {
   list-style: none;
 }
 
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 15%;
+}
+
 /* NAVBAR */
 
 header {
