@@ -337,6 +337,7 @@ header .menu-toggle {
   margin: 50px auto;
   border-radius: 5px;
   background: white;
+  color: #444444;
   position: relative;
   border-top: 1px solid #e0e0e0;
   margin-top: 10px;
@@ -358,6 +359,22 @@ header .menu-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content .app-box .read-more {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.content .app-box .read-more:hover {
+  color: black !important;
+  background: #597a75;
+  transition: .5s;
+}
+
+.content .app-box a {
+  color: #FFFFF0;
 }
 
 .contact-form .contact-input {
