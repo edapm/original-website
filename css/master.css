@@ -175,6 +175,10 @@ header .menu-toggle {
   color: #DD1414;
 }
 
+.info {
+  text-align: center;
+}
+
 /* POST SLIDER */
 .post-slider {
   position: relative;
