@@ -408,7 +408,7 @@ header .menu-toggle {
   transition: .5s;
 }
 
-.content .app-box a {
+.content .app-box .read-more a {
   color: #FFFFF0;
 }
 
