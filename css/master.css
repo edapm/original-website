@@ -168,7 +168,7 @@ header .menu-toggle {
 }
 
 .projects {
-  min-height: 100%;
+  height: auto;
 }
 
 .projects a:hover {
@@ -281,6 +281,27 @@ header .menu-toggle {
   list-style: none;
 }
 
+.content .about {
+  width: 65%;
+  text-align: left;
+  margin-left: 10px auto;
+  padding-left: 10px;
+  float: left;
+}
+
+.content .about h1 {
+  text-align: left;
+}
+
+.content .about-text {
+  word-wrap: normal;
+}
+
+.content .about-contact {
+  border: 1px solid #444444;
+  margin: 20px auto;
+}
+
 .contact-form .contact-input {
   background: inherit;
   color: #bebdbd;
@@ -305,17 +326,6 @@ header .menu-toggle {
   color: black !important;
   background: #87acad;
   transition: .5s;
-}
-
-.about-text {
-  margin: 10px auto;
-  text-align: center;
-  word-wrap: normal;
-}
-
-.about-contact {
-  border: 1px solid #444444;
-  margin: 20px auto;
 }
 
 /* FOOTER */
