@@ -297,6 +297,19 @@ header .menu-toggle {
   list-style: none;
 }
 
+.content .wf-sidebar {
+  width: 10%;
+  float: right;
+  background: #4c534e;
+  margin: 10px auto;
+  padding: 10px;
+  color: #FFFFF0;
+}
+
+.content .wf-sidebar ul {
+  list-style: none;
+}
+
 .content .about {
   width: 65%;
   text-align: left;
@@ -316,6 +329,35 @@ header .menu-toggle {
 .content .about-contact {
   border: 1px solid #444444;
   margin: 20px auto;
+}
+
+.content .app-box {
+  width: 80%;
+  height: 400px;
+  margin: 50px auto;
+  border-radius: 5px;
+  background: white;
+  position: relative;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  float: left;
+}
+
+.content .app-box img {
+  height: 60px;
+}
+
+.content .app-box p {
+  text-align: center;
+}
+
+.content .app-box h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-form .contact-input {
