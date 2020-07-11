@@ -484,8 +484,37 @@ header .menu-toggle {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1226px) {
+  .content .app-box {
+    width: 100%;
+  }
   .content .app-box p {
     font-size: 24px;
+  }
+  .content .wf-sidebar {
+    width: 100%;
+    float: none;
+    position: relative;
+    height: 5%;
+    text-align: center;
+  }
+  .content .wf-sidebar ul {
+    position: relative;
+    flex: none;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content .wf-sidebar ul li {
+    float: left;
+    padding: 10px;
+  }
+  .content .wf-sidebar ul li img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  .content .wf-sidebar .top {
+    visibility: hidden;
   }
 }
 
