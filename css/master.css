@@ -334,16 +334,27 @@ header .menu-toggle {
 }
 
 .content .wf-sidebar {
-  width: 10%;
-  float: right;
-  background: #4c534e;
+  display: flex;
+  align-items: center;
+  width: 7%;
+  float: left;
   margin: 10px auto;
   padding: 10px;
-  color: #FFFFF0;
+  background: #e4e4d3;
+  position: fixed;
 }
 
 .content .wf-sidebar ul {
   list-style: none;
+}
+
+.content .wf-sidebar ul li {
+  margin: 10px auto;
+}
+
+.content .wf-sidebar ul li img {
+  max-height: 30px;
+  max-width: 30px;
 }
 
 .content .about {
@@ -372,11 +383,11 @@ header .menu-toggle {
 }
 
 .content .app-box {
-  width: 80%;
-  height: 400px;
+  width: 90%;
+  height: 600px;
   margin: 50px auto;
   border-radius: 5px;
-  background: white;
+  background: #b2c3d5;
   color: #444444;
   position: relative;
   border-top: 1px solid #e0e0e0;
@@ -384,7 +395,7 @@ header .menu-toggle {
   padding: 10px;
   margin-left: 10px;
   padding-left: 10px;
-  float: left;
+  float: right;
 }
 
 .content .app-box img {
