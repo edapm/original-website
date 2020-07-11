@@ -523,3 +523,38 @@ header .menu-toggle {
     font-size: 18px;
   }
 }
+
+@media only screen and (max-width: 452px) {
+  header {
+    position: relative;
+    transition: .5s;
+  }
+  header ul {
+    width: 100%;
+    background: #597a75;
+    max-height: 0px;
+    overflow: hidden;
+    transition: .5s;
+  }
+  .showing {
+    max-height: 100em;
+    transition: .5s;
+  }
+  header ul li {
+   width: 100%;
+  }
+  header .menu-toggle {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 1.9em;
+  }
+  header .logo {
+    margin-left: 0.5em;
+  }
+  .content .wf-sidebar ul li img {
+    max-width: 30px;
+    max-height: 30px;
+  }
+}
