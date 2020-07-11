@@ -388,6 +388,10 @@ header .menu-toggle {
   text-align: left;
 }
 
+.content .about img {
+  display: none;
+}
+
 .content .about-text {
   word-wrap: normal;
 }
@@ -444,6 +448,11 @@ header .menu-toggle {
 
 .content .app-box .read-more a {
   color: #FFFFF0;
+}
+
+.content .projects-alt {
+  display: none;
+  list-style: none;
 }
 
 .contact-form .contact-input {
@@ -532,9 +541,53 @@ header .menu-toggle {
   }
 }
 
+@media only screen and (max-width: 880px) {
+  .post-slider {
+    display: none;
+  }
+  .content .about {
+    width: 100%;
+  }
+  .content .about h1 {
+    display: flex;
+    align-items: center;
+  }
+  .content .about img {
+    display: flex;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .content .projects-alt {
+    margin-left: 20px;
+    margin-top: 250px;
+    position: absolute;
+    display: block;
+    width: 65%;
+  }
+  .content .projects-alt ul {
+    padding: 10px;
+    padding-left: 25px;
+    list-style: square;
+    background: white;
+    border-radius: 5px;
+  }
+  .content .projects-alt ul li {
+    padding: 10px;
+  }
+  .content .projects-alt .pico {
+    float: right;
+  }
+}
+
 @media only screen and (max-width: 598px) {
   .content .app-box p {
     font-size: 18px;
+  }
+  .content .sidebar {
+    display: none;
+  }
+  .content .projects-alt {
+    width: 100%;
   }
 }
 
@@ -570,5 +623,8 @@ header .menu-toggle {
   .content .wf-sidebar ul li img {
     max-width: 30px;
     max-height: 30px;
+  }
+  .content .projects-alt .pico {
+    display: none;
   }
 }
