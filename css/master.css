@@ -481,3 +481,16 @@ header .menu-toggle {
   color: #DD1414;
   transition: all 0.5s;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1226px) {
+  .content .app-box p {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 598px) {
+  .content .app-box p {
+    font-size: 18px;
+  }
+}
