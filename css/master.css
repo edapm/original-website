@@ -111,6 +111,20 @@ a:hover {
   height: 15%;
 }
 
+.error {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.error img {
+  width: 40%;
+  height: 40%;
+}
+
 /* .bg {
   width: 100%;
 }
