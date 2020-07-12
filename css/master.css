@@ -387,8 +387,9 @@ header .menu-toggle {
 }
 
 .content .about h1 {
-  align-items: center;
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .content .about img {
@@ -552,10 +553,6 @@ header .menu-toggle {
   }
   .content .about {
     width: 100%;
-  }
-  .content .about h1 {
-    display: flex;
-    align-items: center;
   }
   .content .projects-alt {
     margin-left: 20px;
