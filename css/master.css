@@ -376,7 +376,7 @@ header .menu-toggle {
 .content .about {
   background: white;
   border-radius: 5px;
-  width: 65%;
+  width: 100%;
   text-align: left;
   margin-left: 10px auto;
   padding-left: 10px;
@@ -538,7 +538,7 @@ header .menu-toggle {
     max-height: 60px;
   }
   .content .wf-sidebar .top {
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -577,6 +577,9 @@ header .menu-toggle {
   }
   .content .projects-alt .pico {
     float: right;
+  }
+  .footer {
+    display: none;
   }
 }
 
