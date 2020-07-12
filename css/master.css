@@ -579,19 +579,7 @@ header .menu-toggle {
   }
 }
 
-@media only screen and (max-width: 598px) {
-  .content .app-box p {
-    font-size: 18px;
-  }
-  .content .sidebar {
-    display: none;
-  }
-  .content .projects-alt {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 452px) {
+@media only screen and (max-width: 750px) {
   header {
     position: relative;
     transition: .5s;
@@ -620,6 +608,21 @@ header .menu-toggle {
   header .logo {
     margin-left: 0.5em;
   }
+}
+
+@media only screen and (max-width: 598px) {
+  .content .app-box p {
+    font-size: 18px;
+  }
+  .content .sidebar {
+    display: none;
+  }
+  .content .projects-alt {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 452px) {
   .content .wf-sidebar ul li img {
     max-width: 30px;
     max-height: 30px;
