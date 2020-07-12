@@ -608,6 +608,10 @@ header .menu-toggle {
   header .logo {
     margin-left: 0.5em;
   }
+
+  .footer {
+    font-size: 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 598px) {
@@ -618,6 +622,9 @@ header .menu-toggle {
     display: none;
   }
   .content .projects-alt {
+    width: 100%;
+  }
+  .content . post {
     width: 100%;
   }
 }
