@@ -612,9 +612,10 @@ header .menu-toggle {
   .footer {
     font-size: 0.5rem;
   }
-}
 
-@media only screen and (max-width: 598px) {
+  .content .post {
+    width: 100%;
+  }
   .content .app-box p {
     font-size: 18px;
   }
@@ -622,9 +623,6 @@ header .menu-toggle {
     display: none;
   }
   .content .projects-alt {
-    width: 100%;
-  }
-  .content .post {
     width: 100%;
   }
 }
