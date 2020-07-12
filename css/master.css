@@ -138,6 +138,7 @@ a:hover {
 header {
   background: #597a75;
   height: 66px;
+  box-shadow: 0 0 1rem 0 #444444;
 }
 
 header * {
@@ -152,6 +153,7 @@ header .logo {
   float: left;
   height: inherit;
   margin-left: 2em;
+  text-shadow: 2px 2px #444444;
 }
 
 header .logo-text {
