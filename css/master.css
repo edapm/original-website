@@ -611,6 +611,7 @@ header .menu-toggle {
 
   .footer {
     font-size: 0.5rem;
+    height: 15px;
   }
 
   .content .post {
@@ -624,6 +625,9 @@ header .menu-toggle {
   }
   .content .projects-alt {
     width: 100%;
+  }
+  .content .projects-alt h3 {
+    display: none;
   }
 }
 
