@@ -392,7 +392,9 @@ header .menu-toggle {
 }
 
 .content .about img {
-  display: none;
+  display: flex;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .content .about-text {
@@ -554,11 +556,6 @@ header .menu-toggle {
   .content .about h1 {
     display: flex;
     align-items: center;
-  }
-  .content .about img {
-    display: flex;
-    max-width: 50px;
-    max-height: 50px;
   }
   .content .projects-alt {
     margin-left: 20px;
