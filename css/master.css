@@ -338,9 +338,10 @@ header .menu-toggle {
   float: right;
   background: #4c534e;
   margin: 10px auto;
+  margin-left: 70%;
   padding: 10px;
   color: #FFFFF0;
-  margin-top: 30px;
+  position: fixed;
 }
 
 .content .sidebar ul {
