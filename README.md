@@ -8,7 +8,8 @@ forgenst
 ## Acknowledgements
 
 **Thanks to:**
-[Font Awesome](https://fontawesome.com)
-[Slick Slider](https://kenwheeler.github.io/slick)
-[Jekyll](https://jekyllrb.com)
-[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes)
+[Font Awesome](https://fontawesome.com),
+[Slick Slider](https://kenwheeler.github.io/slick),
+[Jekyll](https://jekyllrb.com),
+[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes),
+and [utterances](https://utteranc.es)
