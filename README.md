@@ -4,3 +4,11 @@ This is the repo for my GitHub Pages site - [forgenst.github.io](https://forgens
 Feel free to fork it if you like it! :-)
 
 forgenst
+
+## Acknowledgements
+
+**Thanks to:**
+[Font Awesome](https://fontawesome.com)
+[Slick Slider](https://kenwheeler.github.io/slick)
+[Jekyll](https://jekyllrb.com)
+[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes)
