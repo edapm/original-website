@@ -125,6 +125,10 @@ a:hover {
   height: 40%;
 }
 
+.utterances {
+  position: absolute;
+}
+
 /* .bg {
   width: 100%;
 }
