@@ -8,6 +8,7 @@ forgenst
 ## Acknowledgements
 
 **Thanks to:**
+[Awa](https://codewithawa.com), 
 [Font Awesome](https://fontawesome.com),
 [Slick Slider](https://kenwheeler.github.io/slick),
 [Jekyll](https://jekyllrb.com),
