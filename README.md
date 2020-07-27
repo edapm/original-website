@@ -1,5 +1,5 @@
-# forgenst.github.io - My GitHub Pages Site
-This is the repo for my GitHub Pages site - [forgenst.github.io](https://forgenst.github.io).
+# forgenst.com
+This is the repo for my website - [forgenst.com}(https://forgenst.com).
 
 Feel free to fork it if you like it! :-)
 
@@ -8,7 +8,7 @@ forgenst
 ## Acknowledgements
 
 **Thanks to:**
-[Awa](https://codewithawa.com), 
+[Awa](https://codewithawa.com),
 [Font Awesome](https://fontawesome.com),
 [Slick Slider](https://kenwheeler.github.io/slick),
 [Jekyll](https://jekyllrb.com),
