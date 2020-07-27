@@ -1,5 +1,5 @@
 # forgenst.com
-This is the repo for my website - [forgenst.com}(https://forgenst.com).
+This is the repo for my website - [forgenst.com](https://forgenst.com). It runs on an [nginx](https://www.nginx.com/) server.
 
 Feel free to fork it if you like it! :-)
 
