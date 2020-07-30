@@ -25,12 +25,17 @@
     <p class="info">After making this website, I made a blog using Jekyll.</p>
     <p class="info">It uses the Minimal Mistakes theme, and I quite like its simplicity. Tell me what you think in the comments.</p>
     <br></br><br></br>
-    <script src="https://utteranc.es/client.js"
-        repo="forgenst/forgenst.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
+    <div id='discourse-comments'></div>
+
+    <script type="text/javascript">
+      DiscourseEmbed = { discourseUrl: 'https://forum.forgenst.com/',
+                     discourseEmbedUrl: 'REPLACE_ME' };
+
+      (function() {
+        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+      })();
     </script>
   </body>
   <div class="footer">
