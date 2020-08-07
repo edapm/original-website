@@ -1,5 +1,5 @@
 # forgenst.com
-This is the repo for my website - [forgenst.com](https://forgenst.com). It runs on an [nginx](https://www.nginx.com/) server.
+This is the repo for my website - [forgenst.com](https://forgenst.com). It runs on [Firebase](https://firebase.google.com).
 
 Feel free to fork it if you like it! :-)
 
@@ -13,4 +13,4 @@ forgenst
 [Slick Slider](https://kenwheeler.github.io/slick),
 [Jekyll](https://jekyllrb.com),
 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes),
-and [utterances](https://utteranc.es)
+and [Discourse](https://discourse.org)
