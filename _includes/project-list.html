@@ -1,0 +1,22 @@
+<div class="content">
+    <div class="content-title">
+        <h1>Projects</h1>
+    </div>
+    {% for project in site.projects %}
+        <div class="post">
+            <h2>{{ projects.name }}</h2>
+            <p>{{ project.content }}</p>
+            <button class="btn read-more"><a href="{{ project.url | relative_url }}">Go There</a></button>
+        </div>
+    {% endfor %}
+    <div class="sidebar">
+        <ul>
+            {% for link in site.data.navigation.nav %}
+                <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            {% endfor %}
+            {% if site.email %}
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+        </ul>
+    </div>
+</div>

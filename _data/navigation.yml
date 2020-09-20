@@ -1,0 +1,7 @@
+nav:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects
+  - title: "Blog"
+    url: https://blog.forgenst.com

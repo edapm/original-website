@@ -1,0 +1,17 @@
+<div class="content">
+    <h1>My Favourite Apps</h1>
+    <div class="wf-sidebar">
+        <ul>
+            {% for app in site.apps %}
+                <li><a href="#{{ app.name }}"><img src="{{ app.image | relative_url }}" alt="{{ app.name }}"></a></li>
+            {% endfor %}
+            <li class="top"><a href="#top"><i class="far fa-arrow-alt-circle-up"></i></a></li>
+        </ul>
+    </div>
+    {% for app in site.apps %}
+        <div class="app-box" id="{{ app.name }}">
+            <h2><img src="{{ app.image | relative_url }}" alt="{{ app.name }}">&nbsp; {{ app.name }}</h2>
+            <p>{{ app.content }}</p>
+            <button class="btn read-more"><a href="https://{{ app.website }}">{{ app.website }} <i class="fas fa-external-link-alt"></i></a></button>
+        </div>
+    {% endfor %}

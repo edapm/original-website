@@ -1,0 +1,9 @@
+<header>
+    <h2 class="logo logo-text">Forgenst</h2>
+    <i class="fa fa-bars menu-toggle"></i>
+    <ul class="nav">
+        {% for link in site.data.navigation.nav %}
+            <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+        {% endfor %}
+    </ul>
+</header>
