@@ -1,0 +1,35 @@
+<div class="projects">
+    <!-- Post Slider -->
+    <div class="post-slider">
+        <h1 class="slider-title">Welcome To My Website!</h1>
+        <i class="fas fa-chevron-left prev"></i>
+        <i class="fas fa-chevron-right next"></i>
+        {% for project in site.projects %}
+            <div class="post-wrapper">
+                <div class="post">
+                    <img src="{{ 'assets/images/forgenst.png' | relative_url }}" alt="" class="slider-image">
+                    <div class="post-info">
+                            <h4><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h4>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <!-- // Post Slider -->
+</div>
+<div class="content">
+    <div class="about">
+        <h1><img src="{{ 'assets/images/forgenst.png' | relative_url }}" alt=""> About Me</h1>
+        <p class="about-text">Hi, I'm Ed, I like to code in my spare time. This website is my first project, hoping to
+            do more in the future. Contact me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>!</p>
+        <p class="about-text">Check out my projects <a href="https://github.com/{{ site.github }}">here</a>.</p>
+    </div>
+    <div class="projects-alt">
+        <h3>Projects</h3>
+        <ul>
+            {% for project in site.projects %}
+                <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
